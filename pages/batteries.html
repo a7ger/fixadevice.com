@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/index.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function() {
+                $('#var-navbar').load("/pages/navbar.html");
+                $('#var-footer').load("/pages/footer.html");
+            });
+        </script>
+        <meta name="viewport" content="width=device-width, intial-scale-1.0">
+        <meta charset="utf-8">
+        <title>FIXXA - Quality iPhone Repair</title>
+    </head>
+
+    <body>
+        <div class="page">
+            <div id="var-navbar"></div>
+
+            <div class="page-content" >
+                <div class="info-container" >
+                    <img id="battery-photo" src="/images/battery-photo.jpg" alt="Replacement battery">
+                    <p> We know not everyones financial situation is different
+                        so at FIXXA we believe in giving you the choice between a
+                        good battery and a great battery. Regardless of your
+                        choice we guarantee the install will be done correctly
+                        and with care.</p>
+                </div>
+                <div id="batteries-price-table">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">iPhone Models</th>
+                            <th scope="col">Good Battery</th>
+                            <th scope="col">Great Battery</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>6/6S/6+/6S+</td>
+                            <td>$20</td>
+                            <td>$35</td>
+                        </tr>
+                        <tr>
+                            <td>7/7+</td>
+                            <td>$20</td>
+                            <td>$35</td>
+                        </tr>
+                        <tr>
+                            <td>8/8+</td>
+                            <td>$25</td>
+                            <td>$40</td>
+                        </tr>
+                        <tr>
+                            <td>XR</td>
+                            <td>$25</td>
+                            <td>$40</td>
+                        </tr>
+                        <tr>
+                            <td>X/XS/XSmax</td>
+                            <td>$40</td>
+                            <td>$65</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>$35</td>
+                            <td>$50</td>
+                        </tr>
+                        <tr>
+                            <td>11P/11Pmax</td>
+                            <td>$45</td>
+                            <td>$70</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="var-footer"></div>
+        </div>
+    </body>
+</html>
