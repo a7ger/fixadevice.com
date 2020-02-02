@@ -18,15 +18,17 @@ body {
     margin-bottom: 0;
 }
 
-#test {
-    border: 5px solid red;
-    margin-top: 100%;
-    margin-bottom: 0;
-}
-
 @media only screen and (min-width: 481px){
     body {
         padding-top: 5.6rem;
+    }
+
+    .brand-text-container {
+        margin: 0 6rem;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .navbar {
@@ -84,8 +86,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
-        width: 55%;
+        align-items: center;;
         height: 100%;
         color: white;
     }
@@ -94,10 +95,21 @@ body {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-end;
         height: 100%;
         width: 15%;
     }
+
+    .email-div {
+        margin-right: 1rem;;
+    }
+}
+
+.brand-text {
+    color: white;
+    font-family: FjallaOne-Regular;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 #navbar-brand-logo {
@@ -217,4 +229,9 @@ body {
 
 .var-footer {
     width: 100%;
+}
+
+@font-face {
+    font-family: "FjallaOne-Regular";
+    src: url(/fonts/FjallaOne-Regular.ttf);
 }
